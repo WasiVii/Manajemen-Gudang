@@ -46,7 +46,13 @@
         @endif
       @endforeach --}}
         <li>
-            <a href="/about" class="hover:text-green-700 block py-2 pl-3 pr-4 md:p-0">About</a>
+            <a href="/tentang" class="hover:text-green-700 block py-2 pl-3 pr-4 md:p-0">About</a>
+        </li>
+        <li>
+            <a href="/produk" class="hover:text-green-700 block py-2 pl-3 pr-4 md:p-0">Product</a>
+        </li>
+        <li>
+            <a href="/artikel" class="hover:text-green-700 block py-2 pl-3 pr-4 md:p-0">Article</a>
         </li>
         @if (Auth::check())
             <li>

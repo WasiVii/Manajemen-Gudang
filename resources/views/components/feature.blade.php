@@ -31,6 +31,7 @@ $data3 = array(
 
 $data_page = [$data1, $data2, $data3];
 @endphp
+
 <div class="flex flex-row justify-center items-center py-6 sm:py-8 lg:py-12">
   <div class="mx-auto max-w-screen-xl px-4 md:px-8">
     <h2 class="text-center text-2xl font-bold text-gray-800 md:mb-12 lg:text-3xl">Feature</h2>
